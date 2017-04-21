@@ -10,4 +10,6 @@ set(sources
     src/main.cpp
     src/tools.cpp)
 
+add_subdirectory(calendars_tests)
+
 add_executable(ExtendedKF ${sources})
