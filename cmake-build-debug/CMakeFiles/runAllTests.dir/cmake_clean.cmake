@@ -1,12 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/runAllTests.dir/tests.cpp.o"
-  "CMakeFiles/runAllTests.dir/tests/testTest.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/FusionEKF.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/kalman_filter.cpp.o"
+  "CMakeFiles/runAllTests.dir/tests/test2D.cpp.o"
+  "CMakeFiles/runAllTests.dir/tests/testOneD.cpp.o"
+  "CMakeFiles/runAllTests.dir/src/EntryPoint.cpp.o"
   "CMakeFiles/runAllTests.dir/src/kalman_filter_1d.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/main.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/test.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/tools.cpp.o"
   "../bin/runAllTests.pdb"
   "../bin/runAllTests"
 )

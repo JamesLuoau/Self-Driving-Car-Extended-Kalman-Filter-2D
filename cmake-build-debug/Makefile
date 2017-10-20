@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/james/git/CarND-Extended-Kalman-Filter-Project
+CMAKE_SOURCE_DIR = /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -272,65 +272,35 @@ main1.cpp.s:
 	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/main1.cpp.s
 .PHONY : main1.cpp.s
 
-src/FusionEKF.o: src/FusionEKF.cpp.o
+src/EntryPoint.o: src/EntryPoint.cpp.o
 
-.PHONY : src/FusionEKF.o
-
-# target to build an object file
-src/FusionEKF.cpp.o:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/FusionEKF.cpp.o
-.PHONY : src/FusionEKF.cpp.o
-
-src/FusionEKF.i: src/FusionEKF.cpp.i
-
-.PHONY : src/FusionEKF.i
-
-# target to preprocess a source file
-src/FusionEKF.cpp.i:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.i
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/FusionEKF.cpp.i
-.PHONY : src/FusionEKF.cpp.i
-
-src/FusionEKF.s: src/FusionEKF.cpp.s
-
-.PHONY : src/FusionEKF.s
-
-# target to generate assembly for a file
-src/FusionEKF.cpp.s:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.s
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/FusionEKF.cpp.s
-.PHONY : src/FusionEKF.cpp.s
-
-src/kalman_filter.o: src/kalman_filter.cpp.o
-
-.PHONY : src/kalman_filter.o
+.PHONY : src/EntryPoint.o
 
 # target to build an object file
-src/kalman_filter.cpp.o:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/kalman_filter.cpp.o
-.PHONY : src/kalman_filter.cpp.o
+src/EntryPoint.cpp.o:
+	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/EntryPoint.cpp.o
+.PHONY : src/EntryPoint.cpp.o
 
-src/kalman_filter.i: src/kalman_filter.cpp.i
+src/EntryPoint.i: src/EntryPoint.cpp.i
 
-.PHONY : src/kalman_filter.i
+.PHONY : src/EntryPoint.i
 
 # target to preprocess a source file
-src/kalman_filter.cpp.i:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.i
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/kalman_filter.cpp.i
-.PHONY : src/kalman_filter.cpp.i
+src/EntryPoint.cpp.i:
+	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.i
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/EntryPoint.cpp.i
+.PHONY : src/EntryPoint.cpp.i
 
-src/kalman_filter.s: src/kalman_filter.cpp.s
+src/EntryPoint.s: src/EntryPoint.cpp.s
 
-.PHONY : src/kalman_filter.s
+.PHONY : src/EntryPoint.s
 
 # target to generate assembly for a file
-src/kalman_filter.cpp.s:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.s
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/kalman_filter.cpp.s
-.PHONY : src/kalman_filter.cpp.s
+src/EntryPoint.cpp.s:
+	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.s
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/EntryPoint.cpp.s
+.PHONY : src/EntryPoint.cpp.s
 
 src/kalman_filter_1d.o: src/kalman_filter_1d.cpp.o
 
@@ -362,96 +332,6 @@ src/kalman_filter_1d.cpp.s:
 	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/kalman_filter_1d.cpp.s
 .PHONY : src/kalman_filter_1d.cpp.s
 
-src/main.o: src/main.cpp.o
-
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/main.cpp.o
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/main.cpp.i
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/main.cpp.s
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
-src/test.o: src/test.cpp.o
-
-.PHONY : src/test.o
-
-# target to build an object file
-src/test.cpp.o:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/test.cpp.o
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/test.cpp.o
-.PHONY : src/test.cpp.o
-
-src/test.i: src/test.cpp.i
-
-.PHONY : src/test.i
-
-# target to preprocess a source file
-src/test.cpp.i:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/test.cpp.i
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/test.cpp.i
-.PHONY : src/test.cpp.i
-
-src/test.s: src/test.cpp.s
-
-.PHONY : src/test.s
-
-# target to generate assembly for a file
-src/test.cpp.s:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/test.cpp.s
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/test.cpp.s
-.PHONY : src/test.cpp.s
-
-src/tools.o: src/tools.cpp.o
-
-.PHONY : src/tools.o
-
-# target to build an object file
-src/tools.cpp.o:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/tools.cpp.o
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/tools.cpp.o
-.PHONY : src/tools.cpp.o
-
-src/tools.i: src/tools.cpp.i
-
-.PHONY : src/tools.i
-
-# target to preprocess a source file
-src/tools.cpp.i:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/tools.cpp.i
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/tools.cpp.i
-.PHONY : src/tools.cpp.i
-
-src/tools.s: src/tools.cpp.s
-
-.PHONY : src/tools.s
-
-# target to generate assembly for a file
-src/tools.cpp.s:
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/tools.cpp.s
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/tools.cpp.s
-.PHONY : src/tools.cpp.s
-
 tests.o: tests.cpp.o
 
 .PHONY : tests.o
@@ -479,32 +359,59 @@ tests.cpp.s:
 	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests.cpp.s
 .PHONY : tests.cpp.s
 
-tests/testTest.o: tests/testTest.cpp.o
+tests/test2D.o: tests/test2D.cpp.o
 
-.PHONY : tests/testTest.o
+.PHONY : tests/test2D.o
 
 # target to build an object file
-tests/testTest.cpp.o:
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/testTest.cpp.o
-.PHONY : tests/testTest.cpp.o
+tests/test2D.cpp.o:
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/test2D.cpp.o
+.PHONY : tests/test2D.cpp.o
 
-tests/testTest.i: tests/testTest.cpp.i
+tests/test2D.i: tests/test2D.cpp.i
 
-.PHONY : tests/testTest.i
+.PHONY : tests/test2D.i
 
 # target to preprocess a source file
-tests/testTest.cpp.i:
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/testTest.cpp.i
-.PHONY : tests/testTest.cpp.i
+tests/test2D.cpp.i:
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/test2D.cpp.i
+.PHONY : tests/test2D.cpp.i
 
-tests/testTest.s: tests/testTest.cpp.s
+tests/test2D.s: tests/test2D.cpp.s
 
-.PHONY : tests/testTest.s
+.PHONY : tests/test2D.s
 
 # target to generate assembly for a file
-tests/testTest.cpp.s:
-	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/testTest.cpp.s
-.PHONY : tests/testTest.cpp.s
+tests/test2D.cpp.s:
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/test2D.cpp.s
+.PHONY : tests/test2D.cpp.s
+
+tests/testOneD.o: tests/testOneD.cpp.o
+
+.PHONY : tests/testOneD.o
+
+# target to build an object file
+tests/testOneD.cpp.o:
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/testOneD.cpp.o
+.PHONY : tests/testOneD.cpp.o
+
+tests/testOneD.i: tests/testOneD.cpp.i
+
+.PHONY : tests/testOneD.i
+
+# target to preprocess a source file
+tests/testOneD.cpp.i:
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/testOneD.cpp.i
+.PHONY : tests/testOneD.cpp.i
+
+tests/testOneD.s: tests/testOneD.cpp.s
+
+.PHONY : tests/testOneD.s
+
+# target to generate assembly for a file
+tests/testOneD.cpp.s:
+	$(MAKE) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/tests/testOneD.cpp.s
+.PHONY : tests/testOneD.cpp.s
 
 # Help Target
 help:
@@ -528,30 +435,21 @@ help:
 	@echo "... main1.o"
 	@echo "... main1.i"
 	@echo "... main1.s"
-	@echo "... src/FusionEKF.o"
-	@echo "... src/FusionEKF.i"
-	@echo "... src/FusionEKF.s"
-	@echo "... src/kalman_filter.o"
-	@echo "... src/kalman_filter.i"
-	@echo "... src/kalman_filter.s"
+	@echo "... src/EntryPoint.o"
+	@echo "... src/EntryPoint.i"
+	@echo "... src/EntryPoint.s"
 	@echo "... src/kalman_filter_1d.o"
 	@echo "... src/kalman_filter_1d.i"
 	@echo "... src/kalman_filter_1d.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
-	@echo "... src/tools.o"
-	@echo "... src/tools.i"
-	@echo "... src/tools.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
-	@echo "... tests/testTest.o"
-	@echo "... tests/testTest.i"
-	@echo "... tests/testTest.s"
+	@echo "... tests/test2D.o"
+	@echo "... tests/test2D.i"
+	@echo "... tests/test2D.s"
+	@echo "... tests/testOneD.o"
+	@echo "... tests/testOneD.i"
+	@echo "... tests/testOneD.s"
 .PHONY : help
 
 

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/james/git/CarND-Extended-Kalman-Filter-Project
+CMAKE_SOURCE_DIR = /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/KalmanFilter.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/KalmanFilter.dir/flags.make
 
 CMakeFiles/KalmanFilter.dir/main1.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
 CMakeFiles/KalmanFilter.dir/main1.cpp.o: ../main1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/KalmanFilter.dir/main1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/main1.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/main1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/KalmanFilter.dir/main1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/main1.cpp.o -c /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/main1.cpp
 
 CMakeFiles/KalmanFilter.dir/main1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/main1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/main1.cpp > CMakeFiles/KalmanFilter.dir/main1.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/main1.cpp > CMakeFiles/KalmanFilter.dir/main1.cpp.i
 
 CMakeFiles/KalmanFilter.dir/main1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/main1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/main1.cpp -o CMakeFiles/KalmanFilter.dir/main1.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/main1.cpp -o CMakeFiles/KalmanFilter.dir/main1.cpp.s
 
 CMakeFiles/KalmanFilter.dir/main1.cpp.o.requires:
 
@@ -81,66 +81,42 @@ CMakeFiles/KalmanFilter.dir/main1.cpp.o.provides: CMakeFiles/KalmanFilter.dir/ma
 CMakeFiles/KalmanFilter.dir/main1.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/main1.cpp.o
 
 
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o: ../src/FusionEKF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o: ../src/EntryPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o -c /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/src/EntryPoint.cpp
 
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp > CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.i
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/src/EntryPoint.cpp > CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.i
 
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp -o CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.s
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/src/EntryPoint.cpp -o CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.s
 
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.requires:
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.requires:
 
-.PHONY : CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.requires
+.PHONY : CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.requires
 
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.provides: CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.requires
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.provides.build
-.PHONY : CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.provides
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.provides: CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.requires
+	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.provides.build
+.PHONY : CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.provides
 
-CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o
-
-
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o: ../src/kalman_filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp
-
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp > CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.i
-
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp -o CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.s
-
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.requires:
-
-.PHONY : CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.requires
-
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.provides: CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.requires
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.provides.build
-.PHONY : CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.provides
-
-CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o
+CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o
 
 
 CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
 CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o: ../src/kalman_filter_1d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/kalman_filter_1d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o -c /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/src/kalman_filter_1d.cpp
 
 CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/kalman_filter_1d.cpp > CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/src/kalman_filter_1d.cpp > CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.i
 
 CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/kalman_filter_1d.cpp -o CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/src/kalman_filter_1d.cpp -o CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.s
 
 CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o.requires:
 
@@ -153,101 +129,21 @@ CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o.provides: CMakeFiles/Kalm
 CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o
 
 
-CMakeFiles/KalmanFilter.dir/src/main.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
-CMakeFiles/KalmanFilter.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KalmanFilter.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/main.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/main.cpp
-
-CMakeFiles/KalmanFilter.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/main.cpp > CMakeFiles/KalmanFilter.dir/src/main.cpp.i
-
-CMakeFiles/KalmanFilter.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/main.cpp -o CMakeFiles/KalmanFilter.dir/src/main.cpp.s
-
-CMakeFiles/KalmanFilter.dir/src/main.cpp.o.requires:
-
-.PHONY : CMakeFiles/KalmanFilter.dir/src/main.cpp.o.requires
-
-CMakeFiles/KalmanFilter.dir/src/main.cpp.o.provides: CMakeFiles/KalmanFilter.dir/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/KalmanFilter.dir/src/main.cpp.o.provides
-
-CMakeFiles/KalmanFilter.dir/src/main.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/main.cpp.o
-
-
-CMakeFiles/KalmanFilter.dir/src/test.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
-CMakeFiles/KalmanFilter.dir/src/test.cpp.o: ../src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KalmanFilter.dir/src/test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/test.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/test.cpp
-
-CMakeFiles/KalmanFilter.dir/src/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/test.cpp > CMakeFiles/KalmanFilter.dir/src/test.cpp.i
-
-CMakeFiles/KalmanFilter.dir/src/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/test.cpp -o CMakeFiles/KalmanFilter.dir/src/test.cpp.s
-
-CMakeFiles/KalmanFilter.dir/src/test.cpp.o.requires:
-
-.PHONY : CMakeFiles/KalmanFilter.dir/src/test.cpp.o.requires
-
-CMakeFiles/KalmanFilter.dir/src/test.cpp.o.provides: CMakeFiles/KalmanFilter.dir/src/test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/test.cpp.o.provides.build
-.PHONY : CMakeFiles/KalmanFilter.dir/src/test.cpp.o.provides
-
-CMakeFiles/KalmanFilter.dir/src/test.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/test.cpp.o
-
-
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.o: CMakeFiles/KalmanFilter.dir/flags.make
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.o: ../src/tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KalmanFilter.dir/src/tools.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KalmanFilter.dir/src/tools.cpp.o -c /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/tools.cpp
-
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KalmanFilter.dir/src/tools.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/tools.cpp > CMakeFiles/KalmanFilter.dir/src/tools.cpp.i
-
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KalmanFilter.dir/src/tools.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/james/git/CarND-Extended-Kalman-Filter-Project/src/tools.cpp -o CMakeFiles/KalmanFilter.dir/src/tools.cpp.s
-
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.requires:
-
-.PHONY : CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.requires
-
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.provides: CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.requires
-	$(MAKE) -f CMakeFiles/KalmanFilter.dir/build.make CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.provides.build
-.PHONY : CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.provides
-
-CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.provides.build: CMakeFiles/KalmanFilter.dir/src/tools.cpp.o
-
-
 # Object files for target KalmanFilter
 KalmanFilter_OBJECTS = \
 "CMakeFiles/KalmanFilter.dir/main1.cpp.o" \
-"CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o" \
-"CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o" \
-"CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o" \
-"CMakeFiles/KalmanFilter.dir/src/main.cpp.o" \
-"CMakeFiles/KalmanFilter.dir/src/test.cpp.o" \
-"CMakeFiles/KalmanFilter.dir/src/tools.cpp.o"
+"CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o" \
+"CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o"
 
 # External object files for target KalmanFilter
 KalmanFilter_EXTERNAL_OBJECTS =
 
 ../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/main1.cpp.o
-../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o
-../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o
+../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o
 ../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o
-../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/main.cpp.o
-../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/test.cpp.o
-../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/src/tools.cpp.o
 ../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/build.make
 ../bin/KalmanFilter: CMakeFiles/KalmanFilter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../bin/KalmanFilter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/KalmanFilter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KalmanFilter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,12 +152,8 @@ CMakeFiles/KalmanFilter.dir/build: ../bin/KalmanFilter
 .PHONY : CMakeFiles/KalmanFilter.dir/build
 
 CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/main1.cpp.o.requires
-CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/FusionEKF.cpp.o.requires
-CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/kalman_filter.cpp.o.requires
+CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/EntryPoint.cpp.o.requires
 CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/kalman_filter_1d.cpp.o.requires
-CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/main.cpp.o.requires
-CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/test.cpp.o.requires
-CMakeFiles/KalmanFilter.dir/requires: CMakeFiles/KalmanFilter.dir/src/tools.cpp.o.requires
 
 .PHONY : CMakeFiles/KalmanFilter.dir/requires
 
@@ -270,6 +162,6 @@ CMakeFiles/KalmanFilter.dir/clean:
 .PHONY : CMakeFiles/KalmanFilter.dir/clean
 
 CMakeFiles/KalmanFilter.dir/depend:
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/james/git/CarND-Extended-Kalman-Filter-Project /Users/james/git/CarND-Extended-Kalman-Filter-Project /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/KalmanFilter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles/KalmanFilter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/KalmanFilter.dir/depend
 

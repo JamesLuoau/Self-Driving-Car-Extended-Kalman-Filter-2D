@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/james/git/CarND-Extended-Kalman-Filter-Project/gtests/googletest/include -I/Users/james/git/CarND-Extended-Kalman-Filter-Project/gtests/googletest 
+CXX_INCLUDES = -I/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/gtests/googletest/include -I/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/gtests/googletest 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/james/git/CarND-Extended-Kalman-Filter-Project/gtests
+# Install script for directory: /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/gtests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/gtests/googlemock/cmake_install.cmake")
+  include("/Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/gtests/googlemock/cmake_install.cmake")
 
 endif()
 

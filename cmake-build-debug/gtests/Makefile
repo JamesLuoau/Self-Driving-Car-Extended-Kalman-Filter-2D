@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/james/git/CarND-Extended-Kalman-Filter-Project
+CMAKE_SOURCE_DIR = /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/gtests/CMakeFiles/progress.marks
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles 0
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/gtests/CMakeFiles/progress.marks
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/clean
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/preinstall
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/preinstall
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 gtests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/james/git/CarND-Extended-Kalman-Filter-Project/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/james/git/Self-Driving-Car-Extended-Kalman-Filter-2D/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
