@@ -1,4 +1,5 @@
 bin/
+/cmake-build-debug/
 
 # Created by .ignore support plugin (hsz.mobi)
 ### C template
