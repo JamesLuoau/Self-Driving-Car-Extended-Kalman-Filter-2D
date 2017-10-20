@@ -49,7 +49,7 @@ void check_files(ifstream& in_file, string& in_name,
   }
 }
 
-int main(int argc, char* argv[]) {
+int main___(int argc, char* argv[]) {
 
   check_arguments(argc, argv);
 

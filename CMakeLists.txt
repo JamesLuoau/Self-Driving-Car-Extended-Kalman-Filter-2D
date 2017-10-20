@@ -1,15 +1,20 @@
-project(ExtendedKF)
+cmake_minimum_required(VERSION 3.5)
+project(KalmanFilter)
 
-cmake_minimum_required (VERSION 3.5)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-add_definitions(-std=c++0x)
+add_subdirectory(gtests)
+#add_subdirectory(Eigen)
 
-set(sources
-    src/FusionEKF.cpp
-    src/kalman_filter.cpp
-    src/main.cpp
-    src/tools.cpp)
+find_package(Threads REQUIRED)
+enable_testing()
+include_directories(${GTEST_SOURCE_DIR}/include ${GTEST_SOURCE_DIR})
 
-add_subdirectory(calendars_tests)
+file(GLOB SOURCES "src/*.h" "src/*.cpp" "src/Eigen/src/*.h" "src/Eigen/src/*.cpp")
+file(GLOB TEST_SOURCES "tests/*.cpp")
+add_executable(runAllTests tests.cpp ${TEST_SOURCES} ${SOURCES})
+add_executable(KalmanFilter main1.cpp ${SOURCES})
 
-add_executable(ExtendedKF ${sources})
+target_link_libraries(runAllTests gtest gtest_main)
+add_test(AllTests runAllTests)
